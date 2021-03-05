@@ -2,10 +2,10 @@
  * @fileoverview Disallow inline styles in JSX
  * @author Dmitriy Startsev
  */
- /* eslint-disable no-template-curly-in-string */
+/* eslint-disable no-template-curly-in-string */
 
+const { RuleTester } = require('eslint');
 const rule = require('../../../lib/rules/no-inline-styles');
-const RuleTester = require('eslint').RuleTester;
 
 const parserOptions = {
   ecmaVersion: 6,

@@ -1,42 +1,46 @@
 {
-  "name": "eslint-plugin-react-extra",
-  "version": "0.1.0",
-  "description": "ESLint rules to use with React",
-  "keywords": [
-    "eslint",
-    "eslint-rules",
-    "react"
-  ],
-  "author": "Dmitriy Startsev <starcev.da@gmail.com>",
-  "main": "lib/index.js",
-  "scripts": {
-    "lint": "eslint ./",
-    "test": "npm run lint && npm run unit-test",
-    "unit-test": "mocha tests --recursive"
-  },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "lib"
-  ],
-  "dependencies": {
-    "eslint-plugin-jsx-a11y": "^4.0.0",
-    "eslint-plugin-react": "^6.10.0",
-    "javascript-state-machine": "^2.4.0",
-    "requireindex": "~1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^3.15.0",
-    "eslint-config-airbnb": "^14.1.0",
-    "eslint-plugin-import": "^2.2.0",
-    "mocha": "^3.1.2"
-  },
-  "engines": {
-    "node": ">=0.10"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/buythewhale/eslint-plugin-react-extra"
-  }
+	"name": "eslint-plugin-react-extra",
+	"version": "0.2.0",
+	"description": "ESLint rules to use with React",
+	"keywords": [
+		"eslint",
+		"eslint-rules",
+		"react"
+	],
+	"author": "Dmitriy Startsev <starcev.da@gmail.com>",
+	"maintainers": [
+		"Matthew Crenshaw <sgt@squig.gs>"
+	],
+	"main": "lib/index.js",
+	"scripts": {
+		"lint": "eslint ./",
+		"test": "npm run lint && npm run unit-test",
+		"unit-test": "mocha tests --recursive"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"lib"
+	],
+	"dependencies": {
+		"javascript-state-machine": "^3.1.0",
+		"requireindex": "^1.2.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.21.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-react": "^7.21.5",
+		"eslint-plugin-react-hooks": "^4",
+		"mocha": "^8.3.0"
+	},
+	"engines": {
+		"node": ">=0.10"
+	},
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/buythewhale/eslint-plugin-react-extra"
+	}
 }
